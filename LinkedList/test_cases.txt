@@ -1,0 +1,10 @@
+# Format: operation -> expected output
+init -> []
+append 1 -> [1]
+append 2 -> [1, 2]
+delete 1 -> [2]
+search 2 -> True
+search 3 -> False
+append 3 -> [2, 3]
+append 4 -> [2, 3, 4]
+search 4 -> True
